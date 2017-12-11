@@ -6,8 +6,6 @@ During my minor Smart Industry I got interested in Arduino based hardware, speci
 
 In this period, the popularity of domotics was increasing. After getting Hue light at home, I decided to automate our rolling shutter. There are currently ready-made solutions priced around € 100+.
 
-![fma_ui](https://cldup.com/dTxpPi9lDf.thumb.png)
-
 ### Features
 - Remotely manage your rolling shutter, even without home WiFi;
 - Open and close rolling shutter;
@@ -29,7 +27,7 @@ https://www.banggood.com/search/abs-case.html
 The total costs would be below **€ 15**, isn't that nice?
 
 ### Hardware
-In this chapter we will explain the hardware part of this project, which is quite simpel to be honest. Below is a photo of the end result:
+In this chapter we will explain the hardware part of the project, which is quite simple to be honest. Below is a photo of the end result:
 ![hardware](https://i.imgur.com/bCHh407.jpg)
 As you can see the 4-way relay is connected to the ESP32. You only need two relays (up and down). The ESP32 controls the relay by sending HIGH/LOW signals to the relay. LOW = relay on, HIGH = relay off. 230V + needs to be connected to both relays because the original shutter switch is a 3-way switch. Connecting + with one of the two cables controlls the rolling motor.
 
